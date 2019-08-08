@@ -69,6 +69,7 @@ ClassicEditor.defaultConfig = {
 			'|',
 			'bulletedList',
 			'numberedList',
+			'|',
 			'fontSize'
 		]
 	},
