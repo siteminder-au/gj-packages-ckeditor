@@ -1,0 +1,23 @@
+image: node:10.12.0-alpine
+
+pipelines:
+  branches:
+    master:
+      - step:
+          name: Build
+          caches:
+            - node
+          script:
+            - npm install
+            - npm build
+      - step:
+          name: Publish to NPM
+          deployment: production
+          trigger: manual
+          caches:
+            - node
+          script:
+            - npm config set //registry.npmjs.org/:_authToken=$NPM_TOKEN
+            - npm config set unsafe-perm true
+            - npm install
+            - npm publish
