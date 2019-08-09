@@ -1,25 +1,6 @@
 {
   "name": "@guestjoy/ckeditor5-build-guestjoy",
   "version": "1.0.0",
-  "description": "The classic editor build of CKEditor 5 – the best browser-based rich text editor.",
-  "keywords": [
-    "ckeditor5-build",
-    "ckeditor",
-    "ckeditor5",
-    "ckeditor 5",
-    "wysiwyg",
-    "rich text",
-    "editor",
-    "html",
-    "contentEditable",
-    "editing",
-    "operational transformation",
-    "ot",
-    "collaboration",
-    "collaborative",
-    "real-time",
-    "framework"
-  ],
   "main": "./build/ckeditor.js",
   "files": [
     "build"
@@ -61,18 +42,13 @@
     "node": ">=8.0.0",
     "npm": ">=5.7.1"
   },
-  "author": "CKSource (http://cksource.com/)",
-  "license": "GPL-2.0-or-later",
-  "homepage": "https://ckeditor.com/ckeditor-5",
-  "bugs": "https://github.com/ckeditor/ckeditor5-build-classic/issues",
   "repository": {
     "type": "git",
     "url": "https://github.com/ckeditor/ckeditor5-build-classic.git"
   },
   "scripts": {
     "build": "webpack --mode production",
-    "lint": "eslint --quiet '**/*.js'",
-    "preversion": "npm run build; if [ -n \"$(git status src/ckeditor.js build/ --porcelain)\" ]; then git add -u src/ckeditor.js build/ && git commit -m 'Internal: Build.'; fi"
+    "lint": "eslint --quiet '**/*.js'"
   },
   "lint-staged": {
     "**/*.js": [
