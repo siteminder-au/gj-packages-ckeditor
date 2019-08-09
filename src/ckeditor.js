@@ -34,26 +34,15 @@ export default class ClassicEditor extends ClassicEditorBase {}
 // Plugins to include in the build.
 ClassicEditor.builtinPlugins = [
 	Essentials,
-	UploadAdapter,
 	Autoformat,
 	Bold,
 	Italic,
-	BlockQuote,
 	CKFinder,
-	EasyImage,
 	Heading,
-	Image,
-	ImageCaption,
-	ImageStyle,
-	ImageToolbar,
-	ImageUpload,
 	Link,
 	List,
-	MediaEmbed,
 	Paragraph,
 	PasteFromOffice,
-	Table,
-	TableToolbar,
 	Font
 ];
 
@@ -61,20 +50,20 @@ ClassicEditor.builtinPlugins = [
 ClassicEditor.defaultConfig = {
 	toolbar: {
 		items: [
+			'fontSize',
+			'|',
 			'bold',
 			'italic',
-			'|',
-			'undo',
-			'redo',
-			'|',
+			'link',
 			'bulletedList',
 			'numberedList',
 			'|',
-			'fontSize'
+			'undo',
+			'redo',
 		]
 	},
 	fontSize: {
-		options: [12, 'default', 18, 24, 26]
+		options: [ 12, 'default', 18, 24, 26 ]
 	},
 	language: 'en'
 };
