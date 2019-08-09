@@ -1,6 +1,6 @@
 {
   "name": "@guestjoy/ckeditor5-build-guestjoy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./build/ckeditor.js",
   "files": [
     "build"
