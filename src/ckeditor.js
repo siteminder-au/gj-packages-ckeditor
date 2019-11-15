@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 /**
  * @license Copyright (c) 2003-2019, CKSource - Frederico Knabben. All rights reserved.
  * For licensing, see LICENSE.md or https://ckeditor.com/legal/ckeditor-oss-license
@@ -16,6 +17,7 @@ import List from '@ckeditor/ckeditor5-list/src/list';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice';
 import Font from '@ckeditor/ckeditor5-font/src/font';
+import Clipboard from '@ckeditor/ckeditor5-clipboard/src/clipboard';
 
 export default class ClassicEditor extends ClassicEditorBase {}
 
@@ -31,7 +33,8 @@ ClassicEditor.builtinPlugins = [
 	List,
 	Paragraph,
 	PasteFromOffice,
-	Font
+	Font,
+	Clipboard,
 ];
 
 // Editor configuration.
