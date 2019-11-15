@@ -64,5 +64,8 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
+  },
+  "dependencies": {
+    "@ckeditor/ckeditor5-clipboard": "github:henrijeret/ckeditor5-clipboard"
   }
 }
