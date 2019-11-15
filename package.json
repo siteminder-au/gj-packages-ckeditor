@@ -37,7 +37,8 @@
     "style-loader": "^0.23.0",
     "uglifyjs-webpack-plugin": "^1.2.7",
     "webpack": "^4.15.0",
-    "webpack-cli": "^3.0.8"
+    "webpack-cli": "^3.0.8",
+    "@ckeditor/ckeditor5-clipboard": "https://github.com/henrijeret/ckeditor5-clipboard.git"
   },
   "engines": {
     "node": ">=8.0.0",
@@ -64,8 +65,5 @@
     "hooks": {
       "pre-commit": "lint-staged"
     }
-  },
-  "dependencies": {
-    "@ckeditor/ckeditor5-clipboard": "github:henrijeret/ckeditor5-clipboard"
   }
 }
