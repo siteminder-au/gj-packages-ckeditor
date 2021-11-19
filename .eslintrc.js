@@ -8,5 +8,7 @@
 'use strict';
 
 module.exports = {
-	extends: 'ckeditor5'
+	rules: {
+		'ckeditor5-rules/ckeditor-imports': 'off'
+	}
 };
