@@ -60,7 +60,6 @@ ClassicEditor.builtinPlugins = [
 	TextTransformation,
 
 	// Additional
-	Clipboard,
 	Font,
 	SimpleUploadAdapter,
 
@@ -97,7 +96,7 @@ ClassicEditor.defaultConfig = {
 		],
 	},
 	simpleUpload: {
-		uploadUrl: 'https://api-hotels.guestjoy.com/v2/attachments',
+		uploadUrl: 'https://api-hotels.guestjoy.com/v2/attachments?provider=ckeditor',
 	},
 	fontSize: {
 		options: [ 12, 'default', 18, 24, 26 ]
