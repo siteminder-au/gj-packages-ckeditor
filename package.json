@@ -29,8 +29,7 @@
     "@ckeditor/ckeditor5-paste-from-office": "^31.0.0",
     "@ckeditor/ckeditor5-table": "^31.0.0",
     "@ckeditor/ckeditor5-typing": "^31.0.0",
-    "@ckeditor/ckeditor5-upload": "^31.0.0",
-    "@guestjoy/ckeditor5-build-guestjoy": "1.0.7"
+    "@ckeditor/ckeditor5-upload": "^31.0.0"
   },
   "devDependencies": {
     "@ckeditor/ckeditor5-core": "^31.0.0",
